@@ -9,8 +9,23 @@
 body{
     font-family: oswald, sans-serif;
     text-transform: uppercase;
+    height: 100%;
 }
 
 button{
     font-size: 300%;
+}
+
+#battle-field{
+/* height: 400px; */
+}
+
+#player-area{
+    float:left;
+    padding-right: 20px;
+}
+
+img{
+    width: 250px;
+    height: 250px;
 }
