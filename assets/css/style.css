@@ -16,10 +16,6 @@ button{
     font-size: 300%;
 }
 
-#battle-field{
-/* height: 400px; */
-}
-
 #player-area{
     float:left;
     padding-right: 20px;
