@@ -1,6 +1,10 @@
-let button = getElementsByTagName('button');
-let player = getElementById('player-area');
-let computer = getElementById('computer-area');
-let playerScore = getElementById('player-score');
-let computerScore = getElementById('computer-score');
-let resultMessage = getElementsByClassName('message');
+let buttons = document.getElementsByTagName('button');
+let player = document.getElementById('player-area');
+let computer = document.getElementById('computer-area');
+let playerScore = document.getElementById('player-score');
+let computerScore = document.getElementById('computer-score');
+let resultMessage = document.getElementsByClassName('message');
+
+for (let button of buttons){
+
+}
