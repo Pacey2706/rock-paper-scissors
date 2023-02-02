@@ -15,9 +15,7 @@ for (let button of buttons){
 
 function startGame(playerChoice){
     player.innerHTML = `<img src="assets/images/${choices[playerChoice]}.png">`;
-    console.log('hello');
-};
 
-function getComputerChoice(){
-
+    let computerChoice = Math.floor(Math.random() * 3);
+    computer.innerHTML = `<img src="assets/images/${choices[computerChoice]}.png">`;
 };
