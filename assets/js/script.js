@@ -32,16 +32,19 @@ function getResult(var1, var2){     /*possibly change to a switch statement also
         resultMessage.innerHTML = "It's a DRAW!";
     }else if(var1 === choices[0] && var2 === choices[1]){
         resultMessage.innerHTML = "Sorry better luck next time!";
+        loser();
     }else if(var1 === choices[0] && var2 === choices[2]){
         resultMessage.innerHTML = "You Won!";
         winner();
     }else if(var1 === choices[1] && var2 === choices[2]){
         resultMessage.innerHTML = "Sorry better luck next time!";
+        loser();
     }else if(var1 === choices[1] && var2 === choices[0]){
         resultMessage.innerHTML = "You Won!";
         winner();
     }else if(var1 === choices[2] && var2 === choices[0]){
         resultMessage.innerHTML = "Sorry better luck next time!";
+        loser();
     }else if(var1 === choices[2] && var2 === choices[1]){
         resultMessage.innerHTML = "You won!";
         winner();
@@ -50,4 +53,8 @@ function getResult(var1, var2){     /*possibly change to a switch statement also
 
 function winner(){
     document.getElementById('player-score').innerText = ++playerScore;
+}
+
+function loser(){
+    document.getElementById('computer-score').innerText = ++computerScore;
 }
