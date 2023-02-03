@@ -49,5 +49,5 @@ function getResult(var1, var2){     /*possibly change to a switch statement also
 };
 
 function winner(){
-    playerScore = ++playerScore;
+    document.getElementById('player-score').innerText = ++playerScore;
 }
