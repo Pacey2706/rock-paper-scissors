@@ -14,10 +14,10 @@ for (let button of buttons){
 };
 
 function startGame(playerChoice){
-    player.innerHTML = `<img src="assets/images/${choices[playerChoice]}.png">`;
+    player.innerHTML = `<p>You:</p> <br> <img src="assets/images/${choices[playerChoice]}.png">`;
 
     let computerChoice = Math.floor(Math.random() * choices.length);  /*choices.length allows for more button choices*/
-    computer.innerHTML = `<img src="assets/images/${choices[computerChoice]}.png">`;
+    computer.innerHTML = `<p>Computer:</p> <br> <img src="assets/images/${choices[computerChoice]}.png">`;
 
     getResult(choices[playerChoice], choices[computerChoice]);
 
