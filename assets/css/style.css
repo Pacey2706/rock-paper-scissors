@@ -25,6 +25,11 @@ button{
 
 #player-area{
     float: left;
+    padding-left: 20vw;
+}
+
+#computer-area{
+    padding-left: 25vw;
 }
 
 #computer-area, #player-area{
