@@ -10,23 +10,34 @@ body{
     font-family: oswald, sans-serif;
     text-transform: uppercase;
     height: 100%;
+    text-align: center;
 }
 
 button{
     font-size: 300%;
 }
 
-#player-area{
-    float:left;
-    padding-right: 20px;
+#battle-field{
+    height: 75%;
+    width: 100%;
+
 }
 
-#computer-area{
-    float:left;
-    padding-right: 20px;
+#player-area{
+    float: left;
+}
+
+#computer-area, #player-area{
+    line-height: 75%;
+    width: 25%;
+    margin: auto;
 }
 
 img{
-    width: 250px;
-    height: 250px;
+    width: 30vw;
+    height: 30vh;
 }
+
+
+
+
