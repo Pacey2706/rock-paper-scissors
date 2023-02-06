@@ -19,10 +19,15 @@ button{
     font-size: 300%;
     margin: 0 5vw;
     cursor: pointer;
+    background-color: inherit;
+}
+
+#games-area{
+height: 400px;
 }
 
 #battle-field{
-    height: 90%;
+    height: 75%;
     width: 100%;
 
 }
@@ -39,17 +44,24 @@ button{
 #computer-area, #player-area{
     line-height: 75%;
     width: 30%;
+    height: 30vh;
     margin: auto auto 0;
     
 }
 
 img{
-    width: 20vw;
-    height: 30vh;
+    width: 75%;
+    height: 120%;
 }
 
 p{
     font-size: 100%;
+}
+
+.main-img{
+    width: 175%;
+    height: 150%;
+    padding-left: 10%;
 }
 
 
