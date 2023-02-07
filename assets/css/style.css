@@ -88,12 +88,19 @@ p{
 h3{
   font-size: 3vw;
   display: inline-block;
-  padding: 10vw;
+  padding: 0 10vw;
 }
 
-ul{
-    font-size: 120%;
-    list-style-type: disc;
+.won{
+    color: green;
+}
+
+.lost{
+    color: red;
+}
+
+#player-score, #computer-score{
+    color: black;
 }
 
 
