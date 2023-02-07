@@ -4,7 +4,7 @@ let computer = document.getElementById('computer-area');  /*dont forget add more
 let playerScore = parseInt(document.getElementById('player-score').innerText);
 let computerScore = parseInt(document.getElementById('computer-score').innerText);
 let resultMessage = document.getElementsByClassName('message')[0];
-let choices = ['rock', 'paper', 'scissor','lizard','spock'];
+let choices = ['rock1', 'paper1', 'scissor1','lizard','spock'];
 
 for (let button of buttons){
     button.addEventListener('click', function(){
