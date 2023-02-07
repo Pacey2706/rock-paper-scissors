@@ -41,11 +41,11 @@ button{
 
 #player-area{
     float: left;
-    padding-left: 20vw;
+    padding-left: 15vw;
 }
 
 #computer-area{
-    padding-left: 25vw;
+    padding-left: 35vw;
 }
 
 #computer-area, #player-area{
@@ -60,7 +60,7 @@ img{
     width: 80%;
     height: auto;
     display: block;
-    padding-bottom: 10%;
+    padding-left: 10%;
 }
 
 p{
@@ -71,7 +71,7 @@ p{
     width: 150%;
     height: auto;
     position: relative;
-    left: -19vw;
+    left: -27vw;
 }
 
 
@@ -81,11 +81,12 @@ p{
 }
 
 .message{
-    font-size: 150%;
+    font-size: 5vw;
+    padding-bottom: 6vh;
 }
 
 h3{
-  font-size: 150%;
+  font-size: 3vw;
   display: inline-block;
   padding: 10vw;
 }

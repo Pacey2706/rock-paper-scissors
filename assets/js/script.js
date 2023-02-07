@@ -14,10 +14,10 @@ for (let button of buttons){
 };
 
 function startGame(playerChoice){
-    player.innerHTML = `<p>You:</p> <br> <img src="assets/images/${choices[playerChoice]}.png">`;
+    player.innerHTML = `<p>You:</p> <br><br> <img src="assets/images/${choices[playerChoice]}.png">`;
 
     let computerChoice = Math.floor(Math.random() * choices.length);  /*choices.length allows for more button choices*/
-    computer.innerHTML = `<p>Computer:</p> <br> <img src="assets/images/${choices[computerChoice]}.png">`;
+    computer.innerHTML = `<p>Computer:</p> <br><br> <img src="assets/images/${choices[computerChoice]}.png">`;
 
     getResult(choices[playerChoice], choices[computerChoice]);
 
@@ -31,64 +31,64 @@ function getResult(var1, var2){     /*possibly change to a switch statement also
     if (var1 === var2){
         resultMessage.innerHTML = "It's a DRAW!";
     }else if(var1 === choices[0] && var2 === choices[1]){
-        resultMessage.innerHTML = "paper covers rock";
+        resultMessage.innerHTML = "paper covers rock, you lose!";
         loser();
     }else if(var1 === choices[0] && var2 === choices[2]){
-        resultMessage.innerHTML = "rock crushes scissors";
+        resultMessage.innerHTML = "rock crushes scissors, you won!";
         winner();
     }else if(var1 === choices[1] && var2 === choices[2]){
-        resultMessage.innerHTML = "scissors cut paper";
+        resultMessage.innerHTML = "scissors cut paper, you lose!";
         loser();
     }else if(var1 === choices[1] && var2 === choices[0]){
-        resultMessage.innerHTML = "paper covers rock";
+        resultMessage.innerHTML = "paper covers rock, you won!";
         winner();
     }else if(var1 === choices[2] && var2 === choices[0]){
-        resultMessage.innerHTML = "rock crushes scissors";
+        resultMessage.innerHTML = "rock crushes scissors, you lose!";
         loser();
     }else if(var1 === choices[2] && var2 === choices[1]){
-        resultMessage.innerHTML = "scissors cut paper";
+        resultMessage.innerHTML = "scissors cut paper, you won!";
         winner();
     }else if(var1 === choices[3] && var2 === choices[0]){
-        resultMessage.innerHTML = "rock crushes lizard";
+        resultMessage.innerHTML = "rock crushes lizard, you lose!";
         loser();
     }else if(var1 === choices[0] && var2 === choices[3]){
-        resultMessage.innerHTML = "rock crushes lizard!";
+        resultMessage.innerHTML = "rock crushes lizard, you won!";
         winner();
     }else if(var1 === choices[4] && var2 === choices[3]){
-        resultMessage.innerHTML = "lizard poisons Spock";
+        resultMessage.innerHTML = "lizard poisons Spock, you lose!";
         loser();
     }else if(var1 === choices[3] && var2 === choices[4]){
-        resultMessage.innerHTML = "lizard poisons Spock";
+        resultMessage.innerHTML = "lizard poisons Spock, you won!";
         winner();
     }else if(var1 === choices[2] && var2 === choices[4]){
-        resultMessage.innerHTML = "spock smashes scissors";
+        resultMessage.innerHTML = "spock smashes scissors, you lose!";
         loser();
     }else if(var1 === choices[4] && var2 === choices[2]){
-        resultMessage.innerHTML = "spock smashes scissors";
+        resultMessage.innerHTML = "spock smashes scissors, you won!";
         winner();
     }else if(var1 === choices[3] && var2 === choices[2]){
-        resultMessage.innerHTML = "scissors decapitate lizard";
+        resultMessage.innerHTML = "scissors decapitate lizard, you lose!";
         loser();
     }else if(var1 === choices[2] && var2 === choices[3]){
-        resultMessage.innerHTML = "scissors decapitate lizard";
+        resultMessage.innerHTML = "scissors decapitate lizard, you won!";
         winner();
     }else if(var1 === choices[1] && var2 === choices[3]){
-        resultMessage.innerHTML = "lizard eats paper";
+        resultMessage.innerHTML = "lizard eats paper, you lose!";
         loser();
     }else if(var1 === choices[3] && var2 === choices[1]){
-        resultMessage.innerHTML = "lizard eats paper";
+        resultMessage.innerHTML = "lizard eats paper, you won!";
         winner();
     }else if(var1 === choices[4] && var2 === choices[1]){
-        resultMessage.innerHTML = "paper disproves Spock";
+        resultMessage.innerHTML = "paper disproves Spock, you lose!";
         loser();
     }else if(var1 === choices[1] && var2 === choices[4]){
-        resultMessage.innerHTML = "paper disproves Spock";
+        resultMessage.innerHTML = "paper disproves Spock, you won!";
         winner();
     }else if(var1 === choices[0] && var2 === choices[4]){
-        resultMessage.innerHTML = "Spock vaporizes rock";
+        resultMessage.innerHTML = "Spock vaporizes rock, you lose!";
         loser();
     }else if(var1 === choices[4] && var2 === choices[0]){
-        resultMessage.innerHTML = "Spock vaporizes rock";
+        resultMessage.innerHTML = "Spock vaporizes rock, you won!";
         winner();
     }
 };
