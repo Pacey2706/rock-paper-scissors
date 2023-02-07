@@ -48,46 +48,46 @@ function getResult(var1, var2){     /*possibly change to a switch statement also
     }else if(var1 === choices[2] && var2 === choices[1]){
         resultMessage.innerHTML = "You won!";
         winner();
-    }else if(var1 === choices[] && var2 === choices[]){
+    }else if(var1 === choices[3] && var2 === choices[0]){
+        resultMessage.innerHTML = "lost";
+        winner();
+    }else if(var1 === choices[0] && var2 === choices[3]){
         resultMessage.innerHTML = "You won!";
         winner();
-    }else if(var1 === choices[] && var2 === choices[]){
+    }else if(var1 === choices[4] && var2 === choices[3]){
+        resultMessage.innerHTML = "lost";
+        winner();
+    }else if(var1 === choices[3] && var2 === choices[4]){
         resultMessage.innerHTML = "You won!";
         winner();
-    }else if(var1 === choices[] && var2 === choices[]){
+    }else if(var1 === choices[2] && var2 === choices[4]){
+        resultMessage.innerHTML = "lost";
+        winner();
+    }else if(var1 === choices[4] && var2 === choices[2]){
         resultMessage.innerHTML = "You won!";
         winner();
-    }else if(var1 === choices[] && var2 === choices[]){
+    }else if(var1 === choices[3] && var2 === choices[2]){
+        resultMessage.innerHTML = "lost";
+        winner();
+    }else if(var1 === choices[2] && var2 === choices[3]){
         resultMessage.innerHTML = "You won!";
         winner();
-    }else if(var1 === choices[] && var2 === choices[]){
+    }else if(var1 === choices[1] && var2 === choices[3]){
+        resultMessage.innerHTML = "lost";
+        winner();
+    }else if(var1 === choices[3] && var2 === choices[1]){
         resultMessage.innerHTML = "You won!";
         winner();
-    }else if(var1 === choices[] && var2 === choices[]){
-        resultMessage.innerHTML = "You won!";
+    }else if(var1 === choices[4] && var2 === choices[1]){
+        resultMessage.innerHTML = "lost";
         winner();
-    }else if(var1 === choices[] && var2 === choices[]){
-        resultMessage.innerHTML = "You won!";
+    }else if(var1 === choices[1] && var2 === choices[4]){
+        resultMessage.innerHTML = "You won";
         winner();
-    }else if(var1 === choices[] && var2 === choices[]){
-        resultMessage.innerHTML = "You won!";
+    }else if(var1 === choices[0] && var2 === choices[4]){
+        resultMessage.innerHTML = "lost";
         winner();
-    }else if(var1 === choices[] && var2 === choices[]){
-        resultMessage.innerHTML = "You won!";
-        winner();
-    }else if(var1 === choices[] && var2 === choices[]){
-        resultMessage.innerHTML = "You won!";
-        winner();
-    }else if(var1 === choices[] && var2 === choices[]){
-        resultMessage.innerHTML = "You won!";
-        winner();
-    }else if(var1 === choices[] && var2 === choices[]){
-        resultMessage.innerHTML = "You won!";
-        winner();
-    }else if(var1 === choices[] && var2 === choices[]){
-        resultMessage.innerHTML = "You won!";
-        winner();
-    }else if(var1 === choices[] && var2 === choices[]){
+    }else if(var1 === choices[4] && var2 === choices[0]){
         resultMessage.innerHTML = "You won!";
         winner();
     }
