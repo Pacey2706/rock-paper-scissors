@@ -4,7 +4,7 @@ let computer = document.getElementById('computer-area');  /*dont forget add more
 let playerScore = parseInt(document.getElementById('player-score').innerText);
 let computerScore = parseInt(document.getElementById('computer-score').innerText);
 let resultMessage = document.getElementsByClassName('message')[0];
-let choices = ['rock', 'paper', 'scissor']
+let choices = ['rock', 'paper', 'scissor','lizard','spock'];
 
 for (let button of buttons){
     button.addEventListener('click', function(){
@@ -46,6 +46,48 @@ function getResult(var1, var2){     /*possibly change to a switch statement also
         resultMessage.innerHTML = "Sorry better luck next time!";
         loser();
     }else if(var1 === choices[2] && var2 === choices[1]){
+        resultMessage.innerHTML = "You won!";
+        winner();
+    }else if(var1 === choices[] && var2 === choices[]){
+        resultMessage.innerHTML = "You won!";
+        winner();
+    }else if(var1 === choices[] && var2 === choices[]){
+        resultMessage.innerHTML = "You won!";
+        winner();
+    }else if(var1 === choices[] && var2 === choices[]){
+        resultMessage.innerHTML = "You won!";
+        winner();
+    }else if(var1 === choices[] && var2 === choices[]){
+        resultMessage.innerHTML = "You won!";
+        winner();
+    }else if(var1 === choices[] && var2 === choices[]){
+        resultMessage.innerHTML = "You won!";
+        winner();
+    }else if(var1 === choices[] && var2 === choices[]){
+        resultMessage.innerHTML = "You won!";
+        winner();
+    }else if(var1 === choices[] && var2 === choices[]){
+        resultMessage.innerHTML = "You won!";
+        winner();
+    }else if(var1 === choices[] && var2 === choices[]){
+        resultMessage.innerHTML = "You won!";
+        winner();
+    }else if(var1 === choices[] && var2 === choices[]){
+        resultMessage.innerHTML = "You won!";
+        winner();
+    }else if(var1 === choices[] && var2 === choices[]){
+        resultMessage.innerHTML = "You won!";
+        winner();
+    }else if(var1 === choices[] && var2 === choices[]){
+        resultMessage.innerHTML = "You won!";
+        winner();
+    }else if(var1 === choices[] && var2 === choices[]){
+        resultMessage.innerHTML = "You won!";
+        winner();
+    }else if(var1 === choices[] && var2 === choices[]){
+        resultMessage.innerHTML = "You won!";
+        winner();
+    }else if(var1 === choices[] && var2 === choices[]){
         resultMessage.innerHTML = "You won!";
         winner();
     }
