@@ -1,3 +1,4 @@
+/*google fonts, oswald*/
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 
 *{
@@ -17,8 +18,9 @@ section{
 }
 
 h1{
-    font-size: 5vw;
+    font-size: 4vw;
 }
+/* games-area */
 
 button{
     font-size: 7vw;
@@ -66,7 +68,7 @@ p{
     position: relative;
     left: -27vw;
 }
-
+/* scores area */
 .message{
     font-size: 5vw;
     padding-bottom: 6vh;
