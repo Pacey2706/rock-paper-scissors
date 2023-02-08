@@ -1,11 +1,14 @@
+/*variables assigned to html elements*/
 let buttons = document.querySelectorAll('button');  /*dont forget to add descriptions to functions*/
 let player = document.getElementById('player-area');    /*most varibles can be declared as const*/
 let computer = document.getElementById('computer-area');  /*dont forget add more comments describing possible future maintainability*/
 let playerScore = parseInt(document.getElementById('player-score').innerText);
 let computerScore = parseInt(document.getElementById('computer-score').innerText);
 let resultMessage = document.getElementsByClassName('message')[0];
+/*array used to link to player and computer choices*/
 let choices = ['rock1', 'paper1', 'scissor1','lizard','spock'];
 
+// for loop used to link buttons to choices arrray
 for (let button of buttons){
     button.addEventListener('click', function(){
         let playerChoice = this.getAttribute('data-type');
