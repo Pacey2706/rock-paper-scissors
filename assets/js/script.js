@@ -91,10 +91,10 @@ function getResult(var1, var2){
  * Computer area generates a random number inbetween 0-4 and links to choices array 
  * calls getResults() function*/
 function startGame(playerChoice){
-    player.innerHTML = `<p>You:</p> <br><br> <img src="assets/images/${choices[playerChoice]}.png">`;
+    player.innerHTML = `<p>You:</p> <br><br> <img alt="${choices[playerChoice]}" src="assets/images/${choices[playerChoice]}.png">`;
 
     let computerChoice = Math.floor(Math.random() * choices.length);  // choices.length allows for more button choices
-    computer.innerHTML = `<p>Computer:</p> <br><br> <img src="assets/images/${choices[computerChoice]}.png">`;
+    computer.innerHTML = `<p>Computer:</p> <br><br> <img alt="${choices[computerChoice]}" src="assets/images/${choices[computerChoice]}.png">`;
 
     getResult(choices[playerChoice], choices[computerChoice]);
 
