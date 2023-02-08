@@ -6,7 +6,7 @@ let playerScore = parseInt(document.getElementById('player-score').innerText);
 let computerScore = parseInt(document.getElementById('computer-score').innerText);
 let resultMessage = document.getElementsByClassName('message')[0];
 /*array used to link to player and computer choices*/
-let choices = ['rock1', 'paper1', 'scissor1','lizard','spock'];
+let choices = ['rock', 'paper', 'scissor','lizard','spock'];
 
 // for loop used to link buttons to choices arrray
 for (let button of buttons){
