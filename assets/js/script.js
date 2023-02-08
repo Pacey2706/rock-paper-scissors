@@ -13,22 +13,9 @@ for (let button of buttons){
     button.addEventListener('click', function(){
         let playerChoice = this.getAttribute('data-type');
         startGame(playerChoice);
-    })
-};
+    });
+}
 
-function startGame(playerChoice){
-    player.innerHTML = `<p>You:</p> <br><br> <img src="assets/images/${choices[playerChoice]}.png">`;
-
-    let computerChoice = Math.floor(Math.random() * choices.length);  /*choices.length allows for more button choices*/
-    computer.innerHTML = `<p>Computer:</p> <br><br> <img src="assets/images/${choices[computerChoice]}.png">`;
-
-    getResult(choices[playerChoice], choices[computerChoice]);
-
-    
-};
-
-let var1 = choices[playerchoice];
-let var2 = choices[computerChoice];
 
 function getResult(var1, var2){     /*possibly change to a switch statement also look into declaring objects for results*/
     if (var1 === var2){
@@ -94,7 +81,20 @@ function getResult(var1, var2){     /*possibly change to a switch statement also
         resultMessage.innerHTML = "Spock vaporizes rock, you won!";
         winner();
     }
-};
+}
+
+
+function startGame(playerChoice){
+    player.innerHTML = `<p>You:</p> <br><br> <img src="assets/images/${choices[playerChoice]}.png">`;
+
+    let computerChoice = Math.floor(Math.random() * choices.length);  /*choices.length allows for more button choices*/
+    computer.innerHTML = `<p>Computer:</p> <br><br> <img src="assets/images/${choices[computerChoice]}.png">`;
+
+    getResult(choices[playerChoice], choices[computerChoice]);
+
+    
+}
+
 
 function winner(){
     document.getElementById('player-score').innerText = ++playerScore;
