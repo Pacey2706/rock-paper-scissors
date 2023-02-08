@@ -1,11 +1,11 @@
-/*variables assigned to html elements*/
+// variables assigned to html elements
 let buttons = document.querySelectorAll('button');  /*dont forget to add descriptions to functions*/
 let player = document.getElementById('player-area');    /*most varibles can be declared as const*/
 let computer = document.getElementById('computer-area');  /*dont forget add more comments describing possible future maintainability*/
 let playerScore = parseInt(document.getElementById('player-score').innerText);
 let computerScore = parseInt(document.getElementById('computer-score').innerText);
 let resultMessage = document.getElementsByClassName('message')[0];
-/*array used to link to player and computer choices*/
+// array used to link to player and computer choices
 let choices = ['rock', 'paper', 'scissor','lizard','spock'];
 
 // for loop used to link buttons to choices arrray
@@ -16,8 +16,11 @@ for (let button of buttons){
     });
 }
 
-
-function getResult(var1, var2){     /*possibly change to a switch statement also look into declaring objects for results*/
+/** compairs two varibles that link to the choices array
+* if either varible beats the other
+* returns winner() function or loser function()
+* and updates the result message accordingly */
+function getResult(var1, var2){  
     if (var1 === var2){
         resultMessage.innerHTML = "It's a DRAW!";
     }else if(var1 === choices[0] && var2 === choices[1]){
@@ -83,11 +86,14 @@ function getResult(var1, var2){     /*possibly change to a switch statement also
     }
 }
 
-
+/** start game function to be called when player presses button referenced in for loop,
+ * the player area is updated with playerChoice.
+ * Computer area generates a random number inbetween 0-4 and links to choices array 
+ * calls getResults() function*/
 function startGame(playerChoice){
     player.innerHTML = `<p>You:</p> <br><br> <img src="assets/images/${choices[playerChoice]}.png">`;
 
-    let computerChoice = Math.floor(Math.random() * choices.length);  /*choices.length allows for more button choices*/
+    let computerChoice = Math.floor(Math.random() * choices.length);  // choices.length allows for more button choices
     computer.innerHTML = `<p>Computer:</p> <br><br> <img src="assets/images/${choices[computerChoice]}.png">`;
 
     getResult(choices[playerChoice], choices[computerChoice]);
@@ -95,11 +101,11 @@ function startGame(playerChoice){
     
 }
 
-
+/** when called adds 1 to playerscore */
 function winner(){
     document.getElementById('player-score').innerText = ++playerScore;
 }
-
+/** when called adds 1 to computerscore */ 
 function loser(){
     document.getElementById('computer-score').innerText = ++computerScore;
 }
