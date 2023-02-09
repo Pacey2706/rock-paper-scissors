@@ -52,11 +52,14 @@ The images used are simple and perfectly represent the choices made by the user 
 
 ## testing and validation
 * Tests have have been trialed on all media sizes and all interactive elements behave appropriately.
-* 
+* Light House testing
+![lighthouse returned performance result](assets/images/lighthouse.png)
 * HTML
   * No errors or warmings were returned when passing through the [official W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-maths%2F)
+![w3c validator returned result](assets/images/w3cHTML.png)
 * CSS
   * No errors were found when passing through the [official (Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator)
+![jigsaw validator returned result](assets/images/jigsawCSS.png)
 * JavaScript
   * No errors were found when passing through the [official Jshint validator](https://jshint.com/)
     * The following metrics were returned:
@@ -71,7 +74,13 @@ The images used are simple and perfectly represent the choices made by the user 
       * 'template literal syntax' is only available in ES6 (use 'esversion: 6'). x 2 
 
 ## deployment
-write the stages of deployment
+* In the github repository navigate to the settings tab
+* on the left hand side click on pages
+* change the branch from 'none' to 'main' and press save
+* allow the page to load the save result
+* the page link will be displayed at the top of the page
+* click the visit site button
+* the live link can be found here - https://pacey2706.github.io/rock-paper-scissors/
 
 ## credits
 contents, media, lessons learned 
