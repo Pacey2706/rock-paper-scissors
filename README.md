@@ -5,7 +5,7 @@ The site is aimed towards fans of the show and people who would would like to pl
 
 ## design decisions 
 The two main colours used for the site are Black and white for a clear contrast, and a clean, crisp layout, that is easily viewable by users with diminished visibility or accessibility challenges.
-Green and Red font colours have been used for a easily understandable win and lose score tally.
+Green and Red font colours have been used for a win and lose score tally.
 
 ## features 
 add snapshots of added features of the page like the buttons score area.
