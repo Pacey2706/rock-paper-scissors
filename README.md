@@ -4,7 +4,8 @@ Rock, Paper, Scissors, Lizard, Spock is a website containing a game from the bel
 The site is aimed towards fans of the show and people who would would like to play a more complex game of Rock, Paper, Scissors. In the game your opponent is a fully automated computer who picks one of the options at random.
 
 ## design decisions 
-write about the use of certain design choices like the images used
+The two main colours used for the site are Black and white for a clear contrast, and a clean, crisp layout, that is easily viewable by users with diminished visibility or accessibility challenges.
+Green and Red font colours have been used for a easily understandable win and lose score tally.
 
 ## features 
 add snapshots of added features of the page like the buttons score area.
