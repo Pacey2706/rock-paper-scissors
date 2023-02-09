@@ -3,12 +3,33 @@
 Rock, Paper, Scissors, Lizard, Spock is a website containing a game from the beloved show "The Big Bang Theory".
 The site is aimed towards fans of the show and people who would would like to play a more complex game of Rock, Paper, Scissors. In the game your opponent is a fully automated computer who picks one of the options at random.
 
-## design decisions 
+## Design Decisions 
 The two main colours used for the site are Black and white for a clear contrast, and a clean, crisp layout, that is easily viewable by users with diminished visibility or accessibility challenges.
 Green and Red font colours have been used for a win and lose score tally.
+The images used are simple and perfectly represent the choices made by the user and computer.
 
-## features 
-add snapshots of added features of the page like the buttons score area.
+## Features 
+* Page Title
+  * The page title is simple and allows the user to know exactly what the site consits of.
+![page title](assets/images/title.png)
+
+* Player Choice Area
+  * The user is left to chose one of the five options (rock, paper, ect).
+  * The text used 'choose your weapon' lets the user know this is a clickable option.
+![button selctor area](assets/images/chose-your-weapon.png)
+
+* Player and Computer Choice Display
+  * In this area two images are displayed which correspond to the user choice and computer choice
+![player and computer choice icons](assets/images/player-computer-choice.png)
+
+* Result Message
+  * The result message will appear when one of the options have been clicked.
+  * The message will explain the result of the match and tell the user if they have won the match or lost.
+![result message](assets/images/result-message.png)
+
+* Score Record
+  * The scores of the game are tracked with a win, lost, and draw counter.
+![scores area](assets/images/won-draw-lost.png)
 
 ### future features
 write what the future plan of the project is to be like things that i would like to add and how its accessable to do so.
