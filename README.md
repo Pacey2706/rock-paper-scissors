@@ -31,16 +31,24 @@ The images used are simple and perfectly represent the choices made by the user 
   * The scores of the game are tracked with a win, lost, and draw counter.
 ![scores area](assets/images/won-draw-lost.png)
 
-### future features
+### Future Features
 * Player verses Player game option.
 * More choices to expand on possible outcomes.
 * Difficulty options
 
-## stages of completion
-add original digram and try and sorce a image from all code of orignal design write about the choice to add more choices 
+## Stages of Project
+* The first stage of the project started as hand drawn digram.
+
+<img alt="diagram of project" src="assets/images/firstdraft.png" width="200" height="250">
+
+* The project was origanlly intended to be a rock paper sicissors game
+* As the project progressed more game choices were added and visuals improved
+
 
 ## technology
-add the computer programmers used
+* HTML5
+* CSS3
+* JavaScript
 
 ## testing and validation
 w3c jigsaw lighthouse JS test(rewatch CI vid)
