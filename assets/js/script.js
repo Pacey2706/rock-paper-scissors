@@ -24,6 +24,7 @@ for (let button of buttons){
 function getResult(var1, var2){  
     if (var1 === var2){
         resultMessage.innerHTML = "It's a DRAW!";
+        draw();
     }else if(var1 === choices[0] && var2 === choices[1]){
         resultMessage.innerHTML = "paper covers rock, you lose!";
         loser();
@@ -112,5 +113,5 @@ function loser(){
 }
 
 function draw(){
-    document.getElementById('draw-score').innerText = ++computerScore;
+    document.getElementById('draw-score').innerText = ++drawScore;
 }
