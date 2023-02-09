@@ -4,6 +4,7 @@ let player = document.getElementById('player-area');    /*most varibles can be d
 let computer = document.getElementById('computer-area');  /*dont forget add more comments describing possible future maintainability*/
 let playerScore = parseInt(document.getElementById('player-score').innerText);
 let computerScore = parseInt(document.getElementById('computer-score').innerText);
+let drawScore = parseInt(document.getElementById('draw-score').innerText);
 let resultMessage = document.getElementsByClassName('message')[0];
 // array used to link to player and computer choices
 let choices = ['rock', 'paper', 'scissor','lizard','spock'];
@@ -88,8 +89,8 @@ function getResult(var1, var2){
 
 /** start game function to be called when player presses button referenced in for loop,
  * the player area is updated with playerChoice.
- * Computer area generates a random number inbetween 0-4 and links to choices array 
- * calls getResults() function*/
+ * Computer area generates a random number inbetween 0-4 and links to choices array, 
+ * calls getResult() function*/
 function startGame(playerChoice){
     player.innerHTML = `<p>You:</p> <br><br> <img alt="${choices[playerChoice]}" src="assets/images/${choices[playerChoice]}.png">`;
 
@@ -108,4 +109,8 @@ function winner(){
 /** when called adds 1 to computerscore */ 
 function loser(){
     document.getElementById('computer-score').innerText = ++computerScore;
+}
+
+function draw(){
+    document.getElementById('draw-score').innerText = ++computerScore;
 }
