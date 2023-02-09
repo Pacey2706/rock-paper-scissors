@@ -51,6 +51,8 @@ The images used are simple and perfectly represent the choices made by the user 
 * JavaScript
 
 ## testing and validation
+* Tests have have been trialed on all media sizes and all interactive elements behave appropriately.
+* 
 * HTML
   * No errors or warmings were returned when passing through the [official W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-maths%2F)
 * CSS
