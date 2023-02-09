@@ -45,12 +45,12 @@ The images used are simple and perfectly represent the choices made by the user 
 * As the project progressed more game choices were added and visuals improved
 
 
-## technology
+## Technology
 * HTML5
 * CSS3
 * JavaScript
 
-## testing and validation
+## Testing and Validation
 * Tests have have been trialed on all media sizes and all interactive elements behave appropriately.
 * Light House testing
 ![lighthouse returned performance result](assets/images/lighthouse.png)
@@ -73,7 +73,7 @@ The images used are simple and perfectly represent the choices made by the user 
       * Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (startGame)
       * 'template literal syntax' is only available in ES6 (use 'esversion: 6'). x 2 
 
-## deployment
+## Deployment
 * In the github repository navigate to the settings tab
 * on the left hand side click on pages
 * change the branch from 'none' to 'main' and press save
@@ -82,12 +82,16 @@ The images used are simple and perfectly represent the choices made by the user 
 * click the visit site button
 * the live link can be found here - https://pacey2706.github.io/rock-paper-scissors/
 
-## credits
+## Credits
 * Content and Media 
   * fonts used from [google fonts](https://fonts.google.com/)
   * image used from [wikimedia commons](https://commons.wikimedia.org/wiki/File:Rock_paper_scissors_lizard_spock.svg)
+
+### Lessons Learned
+* Dont overcomplicate the code.
+* work with what you understand.
   
-### acknowledgement 
+### Acknowledgement 
 * original project inspiration from code insitute [PP2 project scope video](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+JSE_PAGPPF+2021_Q2/courseware/30137de05cd847d1a6b6d2c7338c4655/c3bd296fe9d643af86e76e830e1470dd/)
 * Youtube video inspiration
   * [Traversy Media](https://www.youtube.com/watch?v=WR_pWXJZiRY&t=2131s)
