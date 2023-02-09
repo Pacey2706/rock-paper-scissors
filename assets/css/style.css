@@ -68,6 +68,7 @@ p{
     position: relative;
     left: -27vw;
 }
+
 /* scores area */
 .message{
     font-size: 5vw;
@@ -91,9 +92,3 @@ h3{
 #player-score, #computer-score{
     color: black;
 }
-
-
-
-
-
-

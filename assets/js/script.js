@@ -111,7 +111,7 @@ function winner(){
 function loser(){
     document.getElementById('computer-score').innerText = ++computerScore;
 }
-
+/** when called adds 1 to drawscore */
 function draw(){
     document.getElementById('draw-score').innerText = ++drawScore;
 }
