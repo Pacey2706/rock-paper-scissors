@@ -1,5 +1,5 @@
 # ROCK, PAPER, SCISSORS, LIZARD, SPOCK
-
+![pre-view of project](assets/images/responsive.png)
 Rock, Paper, Scissors, Lizard, Spock is a website containing a game from the beloved show "The Big Bang Theory".
 The site is aimed towards fans of the show and people who would would like to play a more complex game of Rock, Paper, Scissors. In the game your opponent is a fully automated computer who picks one of the options at random.
 
