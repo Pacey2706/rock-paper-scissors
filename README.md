@@ -51,7 +51,22 @@ The images used are simple and perfectly represent the choices made by the user 
 * JavaScript
 
 ## testing and validation
-w3c jigsaw lighthouse JS test(rewatch CI vid)
+* HTML
+  * No errors or warmings were returned when passing through the [official W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-maths%2F)
+* CSS
+  * No errors were found when passing through the [official (Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator)
+* JavaScript
+  * No errors were found when passing through the [official Jshint validator](https://jshint.com/)
+    * The following metrics were returned:
+      * There are 6 functions in this file.
+      * Function with the largest signature take 2 arguments, while the median is 0.
+      * Largest function has 43 statements in it, while the median is 1.5.
+      * The most complex function has a cyclomatic complexity value of 42 while the median is 1.
+    * 15 warnings returned:
+      * 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz). x 11
+      * 'for of' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+      * Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (startGame)
+      * 'template literal syntax' is only available in ES6 (use 'esversion: 6'). x 2 
 
 ## deployment
 write the stages of deployment

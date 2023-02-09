@@ -1,7 +1,7 @@
 // variables assigned to html elements
-let buttons = document.querySelectorAll('button');  /*dont forget to add descriptions to functions*/
-let player = document.getElementById('player-area');    /*most varibles can be declared as const*/
-let computer = document.getElementById('computer-area');  /*dont forget add more comments describing possible future maintainability*/
+let buttons = document.querySelectorAll('button');  
+let player = document.getElementById('player-area');    
+let computer = document.getElementById('computer-area');  
 let playerScore = parseInt(document.getElementById('player-score').innerText);
 let computerScore = parseInt(document.getElementById('computer-score').innerText);
 let drawScore = parseInt(document.getElementById('draw-score').innerText);
