@@ -1,10 +1,7 @@
 # ROCK, PAPER, SCISSORS, LIZARD, SPOCK
 
-## business area
-add basic information on the external user goals 1/2p
-
-### user experience
-summary of target audience (make one paragraph ^)
+Rock, Paper, Scissors, Lizard, Spock is a website containing a game from the beloved show "The Big Bang Theory".
+The site is aimed towards fans of the show and people who would would like to play a more complex game of Rock, Paper, Scissors. In the game your opponent is a fully automated computer who picks one of the options at random.
 
 ## design decisions 
 write about the use of certain design choices like the images used
