@@ -26,17 +26,17 @@ function getResult(var1, var2){
     }else if(var1 === choices[0] && var2 === choices[1]){
         resultMessage.innerHTML = "paper covers rock, you lose!";
         loser();
-    }else if(var1 === choices[0] && var2 === choices[2]){
-        resultMessage.innerHTML = "rock crushes scissors, you won!";
-        winner();
-    }else if(var1 === choices[1] && var2 === choices[2]){
-        resultMessage.innerHTML = "scissors cut paper, you lose!";
-        loser();
     }else if(var1 === choices[1] && var2 === choices[0]){
         resultMessage.innerHTML = "paper covers rock, you won!";
         winner();
     }else if(var1 === choices[2] && var2 === choices[0]){
         resultMessage.innerHTML = "rock crushes scissors, you lose!";
+        loser();
+    }else if(var1 === choices[0] && var2 === choices[2]){
+        resultMessage.innerHTML = "rock crushes scissors, you won!";
+        winner();
+    }else if(var1 === choices[1] && var2 === choices[2]){
+        resultMessage.innerHTML = "scissors cut paper, you lose!";
         loser();
     }else if(var1 === choices[2] && var2 === choices[1]){
         resultMessage.innerHTML = "scissors cut paper, you won!";
