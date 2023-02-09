@@ -32,7 +32,9 @@ The images used are simple and perfectly represent the choices made by the user 
 ![scores area](assets/images/won-draw-lost.png)
 
 ### future features
-write what the future plan of the project is to be like things that i would like to add and how its accessable to do so.
+* Player verses Player game option.
+* More choices to expand on possible outcomes.
+* Difficulty options
 
 ## stages of completion
 add original digram and try and sorce a image from all code of orignal design write about the choice to add more choices 
